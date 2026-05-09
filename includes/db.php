@@ -1,11 +1,6 @@
-<?php
-$db_host = getenv('DB_HOST') ?: 'localhost';
-$db_user = getenv('DB_USER') ?: 'root';
-$db_pass = getenv('DB_PASS') ?: '';
-$db_name = getenv('DB_NAME') ?: 'jobyaari_blog';
-
-$conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
-if ($conn->connect_error) {
-    die('Database connection failed: ' . $conn->connect_error);
-}
-$conn->set_charset('utf8mb4');
+$conn = mysqli_connect(
+    "sql200.infinityfree.com",
+    "if0_41870268",
+    "Kushwaha2005",
+    "if0_41870268_jobyaari_blog"
+);
