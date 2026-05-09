@@ -28,4 +28,4 @@ A responsive blog management system built with PHP, MySQL, HTML/CSS, jQuery, and
 - jQuery / AJAX
 
 ## Deployment
-Upload the project files to any PHP host such as InfinityFree, 000webhost, or Render.
+Uploaded the project files to InfinityFree.
