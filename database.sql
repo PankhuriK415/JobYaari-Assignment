@@ -1,7 +1,4 @@
 -- Database schema for Blog Management System
-CREATE DATABASE IF NOT EXISTS jobyaari_blog CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE jobyaari_blog;
-
 CREATE TABLE IF NOT EXISTS admins (
   id INT AUTO_INCREMENT PRIMARY KEY,
   username VARCHAR(100) NOT NULL UNIQUE,
